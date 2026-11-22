@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ilambharathi P, freelance video editor and website creator for businesses." />
+  <title>Ilambharathi P | Freelance Video Editor & Website Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ilambharathi P home"><span>IP</span> Ilambharathi P</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="#contact">Let’s talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Freelance creative partner · Based in India</p>
+        <h1>Stories that make your <em>business</em> stand out.</h1>
+        <p class="hero-text">I’m Ilambharathi P. I create engaging videos and modern websites that help businesses look professional, connect with customers, and grow online.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">View my work <span>↗</span></a>
+          <a class="text-link" href="https://wa.me/916380615421" target="_blank" rel="noreferrer">Message on WhatsApp <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Creative workspace illustration">
+        <div class="art-glow"></div><div class="art-card art-card-back"></div>
+        <div class="art-card art-card-main"><div class="play-icon">▶</div><div class="timeline"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <span class="floating-tag tag-one">VIDEO</span><span class="floating-tag tag-two">WEB</span>
+      </div>
+    </section>
+
+    <section id="services" class="section-shell section-block">
+      <div class="section-heading"><p class="eyebrow">What I do</p><h2>Creative work with a clear purpose.</h2></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div class="service-icon">◒</div><h3>Video Editing</h3><p>Clean, engaging edits for social media, promotions, and business stories that keep your audience watching.</p><span class="service-label">Premiere Pro · Photoshop</span></article>
+        <article class="service-card featured"><span class="service-number">02</span><div class="service-icon">⌘</div><h3>Business Websites</h3><p>Professional, responsive websites that make your business easy to discover and simple to contact.</p><span class="service-label">Design · Development · Mobile</span></article>
+      </div>
+    </section>
+
+    <section id="work" class="section-shell section-block work-section">
+      <div class="section-heading row-heading"><div><p class="eyebrow">Selected concepts</p><h2>A few ways I can help.</h2></div><p class="heading-note">Sample projects for growing local businesses.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-top"><span>01 / Video</span><span>↗</span></div><video class="project-video" controls preload="metadata"><source src="tattoo-final-output.mp4" type="video/mp4">Your browser does not support video playback.</video><div class="project-info"><h3>Tattoo shop reel</h3><p>Bold editing that showcases tattoo craft, atmosphere, and finished work.</p></div></article>
+        <article class="project-card"><div class="project-top"><span>02 / Video</span><span>↗</span></div><video class="project-video" controls preload="metadata"><source src="portfolio-video-01.mp4" type="video/mp4">Your browser does not support video playback.</video><div class="project-info"><h3>Portfolio edit</h3><p>A creative showcase edit designed to introduce a brand and its work.</p></div></article>
+        <article class="project-card"><div class="project-top"><span>03 / Video</span><span>↗</span></div><video class="project-video" controls preload="metadata"><source src="nachiyar-chit-fund.mp4" type="video/mp4">Your browser does not support video playback.</video><div class="project-info"><h3>Nachiyar Chit Fund</h3><p>A clear promotional video for a trusted local financial service.</p></div></article>
+        <article class="project-card"><div class="project-top"><span>04 / Video</span><span>↗</span></div><video class="project-video" controls preload="metadata"><source src="chit-fund-before-after.mp4" type="video/mp4">Your browser does not support video playback.</video><div class="project-info"><h3>Before and after edit</h3><p>A visual comparison showing the transformation created through editing.</p></div></article>
+      </div>
+    </section>
+
+    <section id="about" class="about-section"><div class="section-shell about-grid"><div><p class="eyebrow">A little about me</p><h2>Good design should feel simple.</h2></div><div><p class="about-copy">I’m a freelancer who enjoys turning ideas into useful digital experiences. Whether you need a video that gets attention or a website that earns trust, I bring a practical and creative approach to every project.</p><div class="skill-list"><span>Premiere Pro</span><span>Photoshop</span><span>Responsive design</span><span>Business storytelling</span></div></div></div></section>
+
+    <section id="contact" class="contact-section section-shell"><div class="contact-card"><div><p class="eyebrow">Have a project in mind?</p><h2>Let’s create something people remember.</h2></div><div class="contact-details"><a href="tel:+916380615421">+91 63806 15421</a><a href="mailto:bharathiiialm426@gmail.com">bharathiiialm426@gmail.com</a><a class="button button-light" href="https://wa.me/916380615421" target="_blank" rel="noreferrer">Chat on WhatsApp <span>↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer section-shell"><span>© 2026 Ilambharathi P</span><span>Video · Web · Ideas</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
+const menuButton = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav-links');
+
+menuButton.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('open');
+  menuButton.setAttribute('aria-expanded', isOpen);
+});
+
+document.querySelectorAll('.nav-links a').forEach((link) => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('open');
+    menuButton.setAttribute('aria-expanded', 'false');
+  });
+});
+:root{--ink:#17201e;--muted:#68736d;--cream:#f5f4ed;--lime:#d7f24a;--orange:#ff754d;--line:#dfe2d7;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.5}a{color:inherit;text-decoration:none}.section-shell{width:min(1120px,calc(100% - 48px));margin:auto}.site-header{height:76px;display:flex;align-items:center;justify-content:space-between;width:min(1120px,calc(100% - 48px));margin:auto}.brand{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.08rem;display:flex;align-items:center;gap:9px}.brand span{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--ink);color:var(--lime);font-size:.75rem}.nav-links{display:flex;align-items:center;gap:32px;font-size:.92rem;font-weight:600}.nav-links a{transition:opacity .2s}.nav-links a:hover{opacity:.55}.nav-contact{background:var(--ink);color:white;padding:10px 17px;border-radius:100px}.menu-toggle{display:none;border:0;background:none;font-size:1.5rem}.hero{min-height:640px;display:grid;grid-template-columns:1.02fr .98fr;gap:50px;align-items:center;padding:65px 0 90px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:var(--orange);margin:0 0 20px}.hero h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(3rem,6vw,5.55rem);line-height:.96;letter-spacing:-.07em;margin:0 0 28px;max-width:620px}.hero h1 em{font-style:normal;color:var(--orange)}.hero-text{color:var(--muted);max-width:480px;font-size:1.06rem}.hero-actions{display:flex;align-items:center;gap:25px;margin-top:35px}.button{display:inline-flex;gap:18px;align-items:center;border-radius:100px;padding:14px 20px;font-weight:700;font-size:.9rem}.button-primary{background:var(--ink);color:var(--white)}.button-primary span,.button-light span{font-size:1.1rem}.text-link{font-weight:700;font-size:.88rem;border-bottom:1px solid var(--ink);padding-bottom:4px}.text-link span{margin-left:7px}.hero-art{height:420px;position:relative;display:grid;place-items:center}.art-glow{position:absolute;width:310px;height:310px;border-radius:50%;background:var(--lime);filter:blur(1px)}.art-card{position:absolute;width:290px;height:205px;border-radius:15px;box-shadow:20px 22px 0 rgba(23,32,30,.12)}.art-card-back{background:var(--orange);transform:rotate(10deg) translate(38px,18px)}.art-card-main{background:#1e2926;transform:rotate(-8deg);padding:36px 28px;display:flex;flex-direction:column;justify-content:space-between}.play-icon{border:1px solid rgba(255,255,255,.7);color:var(--lime);height:58px;width:58px;display:grid;place-items:center;border-radius:50%;font-size:1.2rem;padding-left:4px}.timeline{display:flex;gap:5px;height:30px;align-items:end}.timeline i{display:block;background:var(--orange);height:100%;flex:1;border-radius:3px}.timeline i:nth-child(2){height:55%;background:var(--lime)}.timeline i:nth-child(3){height:80%;background:#f3f3e9}.timeline i:nth-child(4){height:40%;background:var(--lime)}.timeline i:nth-child(5){height:70%;background:var(--orange)}.floating-tag{position:absolute;z-index:2;font-weight:800;letter-spacing:.12em;font-size:.72rem;padding:9px 13px;border:2px solid var(--ink);background:var(--cream);transform:rotate(-12deg)}.tag-one{top:47px;right:35px}.tag-two{bottom:48px;left:25px;transform:rotate(10deg);background:var(--lime)}.section-block{padding:85px 0}.section-heading{max-width:620px}.section-heading h2,.about-section h2,.contact-card h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(2.2rem,4vw,3.7rem);line-height:1;letter-spacing:-.055em;margin:0}.service-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}.service-card{background:var(--white);border-radius:18px;padding:28px 30px 31px;position:relative;min-height:290px;border:1px solid var(--line)}.service-card.featured{background:var(--lime);border-color:var(--lime)}.service-number{font-size:.78rem;color:var(--muted);font-weight:700}.service-icon{font-size:2.6rem;margin:20px 0 8px}.service-card h3{font-family:'Space Grotesk',sans-serif;font-size:1.65rem;margin:0 0 10px}.service-card p{color:var(--muted);max-width:390px;margin:0}.service-label{display:block;margin-top:23px;font-size:.73rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.row-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;max-width:none}.heading-note{color:var(--muted);max-width:220px}.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:42px}.project-card{background:var(--white);border:1px solid var(--line);border-radius:18px;overflow:hidden}.project-top{display:flex;justify-content:space-between;padding:17px 20px;font-size:.73rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.project-visual{height:260px;margin:0 12px;border-radius:12px;display:flex;align-items:end;padding:24px;font-family:'Space Grotesk',sans-serif;font-size:2rem;line-height:.9}.project-visual strong{font-size:3rem}.tattoo-visual{background:linear-gradient(140deg,#1b1d1e,#44332e 52%,#d65b39);color:#f8e9cc}.chit-visual{background:linear-gradient(135deg,#d4ef49,#7ebd8f);color:#15352e}.project-info{padding:20px 22px 24px}.project-info h3{font-family:'Space Grotesk',sans-serif;margin:0 0 5px;font-size:1.25rem}.project-info p{color:var(--muted);margin:0;font-size:.91rem}.about-section{background:var(--ink);color:white;padding:95px 0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.about-section .eyebrow{color:var(--lime)}.about-copy{font-size:1.25rem;line-height:1.45;margin:0;color:#d9ded5}.skill-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px}.skill-list span{border:1px solid #66716a;border-radius:100px;padding:8px 13px;color:#d9ded5;font-size:.8rem}.contact-section{padding:90px 0}.contact-card{background:var(--orange);border-radius:20px;padding:48px 52px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px}.contact-card .eyebrow{color:var(--ink)}.contact-details{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:12px;font-size:1.05rem;font-weight:600}.button-light{background:var(--ink);color:white;margin-top:12px}.site-footer{padding:0 0 30px;display:flex;justify-content:space-between;color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}@media(max-width:720px){.section-shell,.site-header{width:min(100% - 36px,540px)}.site-header{height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:18px;right:18px;background:var(--white);padding:20px;border-radius:14px;box-shadow:0 12px 30px #0001;flex-direction:column;align-items:stretch;gap:16px;z-index:5}.nav-links.open{display:flex}.nav-contact{text-align:center}.hero{display:flex;flex-direction:column;padding:55px 0 65px;gap:20px;align-items:stretch}.hero h1{font-size:3.25rem}.hero-art{height:300px}.art-card{width:245px;height:170px}.art-glow{width:230px;height:230px}.tag-one{top:20px;right:10px}.tag-two{bottom:10px;left:5px}.hero-actions{flex-wrap:wrap;gap:18px}.section-block{padding:60px 0}.service-grid,.project-grid,.about-grid,.contact-card{grid-template-columns:1fr}.service-card{min-height:0}.row-heading{display:block}.heading-note{margin-top:18px}.project-visual{height:210px}.project-visual strong{font-size:2.4rem}.about-section{padding:65px 0}.contact-section{padding:60px 0}.contact-card{padding:30px 25px}.contact-details{margin-top:8px}.site-footer{font-size:.66rem}}
+ .project-video{display:block;width:calc(100% - 24px);height:260px;margin:0 12px;border-radius:12px;background:#1b2421;object-fit:cover}
+
